@@ -1,0 +1,32 @@
+.clients-list{
+    display: flex;
+    justify-content: space-between;
+
+  &-item-pic{
+  display: flex;
+  width: 170px;
+  height: 90px;
+  color:#AFB1B8;
+  border: 1px solid #AFB1B8;
+  box-sizing: border-box;
+  border-radius: 4px;   
+  align-items: center;
+  justify-content: center;
+
+  transition-duration: 250ms ;
+  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)
+    }
+    
+    &-item-pic:hover,
+    &-item-pic:focus{
+        color: $accent-color;
+        border-color: $accent-color;
+    }
+    &-item-svg{
+    fill:currentColor ;
+    }
+  }
+ 
+
+
+

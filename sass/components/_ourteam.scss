@@ -1,0 +1,74 @@
+.team {
+    background: #f5f4fa;
+  }
+  .team-list{
+    display: flex;
+    &> li {
+        margin-right: 30px;
+        background:$primary-white-color;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+      }
+    &> li:last-child {
+        margin-right: 0px;
+      }
+    &-item-img{
+        margin-bottom: 30px;
+    }
+
+  }
+  .member-name{
+  
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.186;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color:$page-main-color;
+  margin-bottom: 10px;
+  }
+  .member-profession{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.186;
+  letter-spacing: 0.03em;
+  color:$page-secondary-color;
+  text-align: center;
+  margin-bottom: 16px;
+  }
+  .sosial-list{
+    display: flex;
+    margin-bottom: 24px;
+    margin-right: 32px;
+    margin-left: 32px;
+    justify-content: space-between;
+
+    &-link{
+        display: flex;
+        width: 44px;
+        height: 44px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        color: #afb1b8;
+      
+        transition-duration: 250ms ;
+        transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)
+
+    }
+    &-link:hover,
+    &-link:focus{
+        color: #ffffff;
+        background-color: $accent-color;
+        cursor: pointer;
+      }
+    &-link-svg{
+        width: 20px;
+        height: 20px;
+        fill: currentColor;
+    }
+    
+  }
+  
+  
+ 

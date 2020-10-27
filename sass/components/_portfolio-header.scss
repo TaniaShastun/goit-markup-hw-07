@@ -1,0 +1,115 @@
+header{
+    border-bottom: 1px solid #ECECEC; 
+  }
+  .container-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;   
+  }
+  
+  
+  .header-navigation{
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  
+  
+  .navigation-list{
+    display: flex;
+    &-item:not(:last-child){
+        margin-right: 50px;
+        }
+    &-link{
+    position: relative;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: #212121;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    transition-duration: 250ms ;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1) ;
+
+    &:hover,
+    &:focus{
+      color:$accent-color; 
+      cursor: pointer;
+      }
+    &.portfolio::after{
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0 ;
+      display: block;
+      width: 100%;
+      height: 4px;
+      border-radius: 2px;
+      background-color:$accent-color;
+    }
+
+    }    
+  
+
+  }
+ 
+  
+
+  .address-list{
+    display: flex; 
+    &-item:not(:last-child){
+        margin-right: 30px;
+       }
+    &-link{
+        font-style: normal;
+        display: flex;
+        align-items: center;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.143;
+        letter-spacing: 0.02em;
+        color:$page-secondary-color;
+        
+        transition-duration: 250ms ;
+        transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1) ;
+
+        &:hover,
+        &:focus{
+        color:$accent-color;
+        color:$accent-color;
+        cursor: pointer;
+        }
+        
+        }
+    &-link-icon {
+      margin-right: 10px;
+      fill: currentColor;
+    }   
+    }
+    
+  
+  .container-logo{
+    display: flex;
+    }
+    .logo{
+      font-family:$secondary-font;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 1.192;
+      letter-spacing: 0.03em;
+      color: #000000;
+      margin-right:93px;
+
+      &-web{
+        color:$accent-color; 
+      }
+      &-studio{
+        color:$primary-white-color;
+      }
+     
+    }
+    
