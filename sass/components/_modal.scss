@@ -42,7 +42,7 @@
   
               &:hover+.modal-icon-svg,
               &:focus +.modal-icon-svg{
-                  fill:$accent-color ;
+                  fill:$accent-color;
                   transition-duration: 250ms ;
                   transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1) ;
                  }
@@ -50,7 +50,7 @@
               &-input:hover,
               &-input:focus{
              outline: none;
-             border: 1px solid $accent-color ; 
+             border: 1px solid $accent-color; 
             }
             &-field textarea::placeholder{
               font-weight: 400;
@@ -125,7 +125,7 @@
                &:checked+.check-label::before{
                 background-color: $accent-color;
                 border-color:$accent-color;
-                background-image: url(/images/iconcheck.svg);
+                background-image: url(../images/iconcheck.svg);
                 background-size: contain;
                 background-origin: border-box;
                 transition-duration: 250ms ;
@@ -219,9 +219,4 @@
               cursor: pointer;
             }
             }
-            
-          
-            
-            
-            
-          
+          }

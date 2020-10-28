@@ -1,4 +1,4 @@
-.footer{
+     .footer{
     background: #2F303A; 
     padding-top:60px ;
     padding-bottom:60px ;
@@ -23,12 +23,12 @@
       &-contacts{
         display: block;
         margin-right: 70px;
-    }
+      }
     }
     .footer-address{
       &-item:not(:last-child){
         margin-bottom: 9px;
-    }
+      }
       &-link{
       font-style: normal;
       font-weight: 400;
@@ -70,12 +70,12 @@
         &:focus{
           background-color: $accent-color;
 
-         }
+        }
         &-svg{
           width: 20px;
           height: 20px;
           fill: currentColor;
-        }
+       }
         
       }
 
@@ -83,7 +83,7 @@
   
      
 
-  .footer-logo {
+    .footer-logo {
     display: inline-block;
     font-family:$secondary-font;
     font-style: normal;
@@ -93,8 +93,8 @@
     letter-spacing: 0.03em;
     color: #000000;
     margin-bottom: 20px;
-  }
-  .footers-titles{
+   }
+   .footers-titles{
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -103,17 +103,17 @@
   text-transform: uppercase;
   color:$primary-white-color;
   margin-bottom: 20px;
-  }
-  .sign-part-wrapp{
+   }
+   .sign-part-wrapp{
     display: flex;
     & input{
       color: rgba(255, 255, 255, 0.6);
-    }
-  }
+     }
+   }
 
   
      
-  .footer-list-sign-btn{
+   .footer-list-sign-btn{
     display: flex;
     align-items:center ;
     justify-content: center;
@@ -127,8 +127,8 @@
     &:focus{
       cursor: pointer;
     
-    }
-  }
+     }
+   }
     .footers-titles-sign{
     text-transform: initial;
     font-weight: 700;
@@ -138,7 +138,7 @@
     color: #FFFFFF;
     margin-right: 10px;
     
-    }
+   }
     .sign-up-input{
     width: 358px;
     height: 50px;
@@ -151,12 +151,12 @@
 
     &:focus{
       cursor: pointer;
-    }
+     }
     
-    }
+   }
     .footer-list-sign-svg{
     display: flex;
     
-    }
+   }
   
   
